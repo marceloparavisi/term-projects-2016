@@ -1,0 +1,8 @@
+prefix=/home/paravisi/ROSPlan/install
+
+Name: rosplan_knowledge_msgs
+Description: Description of rosplan_knowledge_msgs
+Version: 0.0.0
+Cflags: -I/home/paravisi/ROSPlan/install/include
+Libs: -L/home/paravisi/ROSPlan/install/lib 
+Requires: message_generation message_runtime diagnostic_msgs geometry_msgs roscpp rospy std_msgs genmsg

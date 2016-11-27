@@ -1,0 +1,8 @@
+prefix=/home/paravisi/ROSPlan/install
+
+Name: rosplan_planning_system
+Description: Description of rosplan_planning_system
+Version: 0.0.0
+Cflags: -I/home/paravisi/ROSPlan/install/include -I/opt/ros/indigo/include -I/usr/include
+Libs: -L/home/paravisi/ROSPlan/install/lib -lrosplan_planning_system -lrosplan_action_interface
+Requires: roscpp rospy actionlib std_msgs std_srvs diagnostic_msgs rosplan_dispatch_msgs rosplan_knowledge_msgs
